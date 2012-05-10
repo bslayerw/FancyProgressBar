@@ -1,0 +1,1 @@
+This is more of an expriment than anything else. This is an in place replacement for NSProgressIndicator on Mac and UIProgressView on iOS that created a progress bar utilizing Core Animation Emitters.
