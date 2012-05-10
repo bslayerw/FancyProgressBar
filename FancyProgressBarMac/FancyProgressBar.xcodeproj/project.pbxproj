@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292132A2155C49EB00AFF9E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292132A1155C49EB00AFF9E5 /* Cocoa.framework */; };
+		292132AC155C49EB00AFF9E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 292132AA155C49EB00AFF9E5 /* InfoPlist.strings */; };
+		292132AE155C49EB00AFF9E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132AD155C49EB00AFF9E5 /* main.m */; };
+		292132B2155C49EB00AFF9E5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 292132B0155C49EB00AFF9E5 /* Credits.rtf */; };
+		292132B5155C49EB00AFF9E5 /* BBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132B4155C49EB00AFF9E5 /* BBSAppDelegate.m */; };
+		292132B8155C49EB00AFF9E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292132B6155C49EB00AFF9E5 /* MainMenu.xib */; };
+		292132C4155C4A0E00AFF9E5 /* BBSProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132BF155C4A0E00AFF9E5 /* BBSProgressIndicator.m */; };
+		292132C5155C4A0E00AFF9E5 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 292132C1155C4A0E00AFF9E5 /* circle.png */; };
+		292132C6155C4A0E00AFF9E5 /* rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 292132C2155C4A0E00AFF9E5 /* rectangle.png */; };
+		292132C7155C4A0E00AFF9E5 /* tspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 292132C3155C4A0E00AFF9E5 /* tspark.png */; };
+		292132C9155C4A5C00AFF9E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292132C8155C4A5C00AFF9E5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2921329D155C49EB00AFF9E5 /* FancyProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292132A1155C49EB00AFF9E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		292132A4155C49EB00AFF9E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		292132A5155C49EB00AFF9E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		292132A6155C49EB00AFF9E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		292132A9155C49EB00AFF9E5 /* FancyProgressBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancyProgressBar-Info.plist"; sourceTree = "<group>"; };
+		292132AB155C49EB00AFF9E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		292132AD155C49EB00AFF9E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		292132AF155C49EB00AFF9E5 /* FancyProgressBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FancyProgressBar-Prefix.pch"; sourceTree = "<group>"; };
+		292132B1155C49EB00AFF9E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		292132B3155C49EB00AFF9E5 /* BBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSAppDelegate.h; sourceTree = "<group>"; };
+		292132B4155C49EB00AFF9E5 /* BBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSAppDelegate.m; sourceTree = "<group>"; };
+		292132B7155C49EB00AFF9E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		292132BE155C4A0E00AFF9E5 /* BBSProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSProgressIndicator.h; sourceTree = "<group>"; };
+		292132BF155C4A0E00AFF9E5 /* BBSProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSProgressIndicator.m; sourceTree = "<group>"; };
+		292132C1155C4A0E00AFF9E5 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		292132C2155C4A0E00AFF9E5 /* rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangle.png; sourceTree = "<group>"; };
+		292132C3155C4A0E00AFF9E5 /* tspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tspark.png; sourceTree = "<group>"; };
+		292132C8155C4A5C00AFF9E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2921329A155C49EB00AFF9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292132C9155C4A5C00AFF9E5 /* QuartzCore.framework in Frameworks */,
+				292132A2155C49EB00AFF9E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29213292155C49EB00AFF9E5 = {
+			isa = PBXGroup;
+			children = (
+				292132C8155C4A5C00AFF9E5 /* QuartzCore.framework */,
+				292132A7155C49EB00AFF9E5 /* FancyProgressBar */,
+				292132A0155C49EB00AFF9E5 /* Frameworks */,
+				2921329E155C49EB00AFF9E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2921329E155C49EB00AFF9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2921329D155C49EB00AFF9E5 /* FancyProgressBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292132A0155C49EB00AFF9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292132A1155C49EB00AFF9E5 /* Cocoa.framework */,
+				292132A3155C49EB00AFF9E5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		292132A3155C49EB00AFF9E5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292132A4155C49EB00AFF9E5 /* AppKit.framework */,
+				292132A5155C49EB00AFF9E5 /* CoreData.framework */,
+				292132A6155C49EB00AFF9E5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		292132A7155C49EB00AFF9E5 /* FancyProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				292132BE155C4A0E00AFF9E5 /* BBSProgressIndicator.h */,
+				292132BF155C4A0E00AFF9E5 /* BBSProgressIndicator.m */,
+				292132C0155C4A0E00AFF9E5 /* resources */,
+				292132B3155C49EB00AFF9E5 /* BBSAppDelegate.h */,
+				292132B4155C49EB00AFF9E5 /* BBSAppDelegate.m */,
+				292132B6155C49EB00AFF9E5 /* MainMenu.xib */,
+				292132A8155C49EB00AFF9E5 /* Supporting Files */,
+			);
+			path = FancyProgressBar;
+			sourceTree = "<group>";
+		};
+		292132A8155C49EB00AFF9E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				292132A9155C49EB00AFF9E5 /* FancyProgressBar-Info.plist */,
+				292132AA155C49EB00AFF9E5 /* InfoPlist.strings */,
+				292132AD155C49EB00AFF9E5 /* main.m */,
+				292132AF155C49EB00AFF9E5 /* FancyProgressBar-Prefix.pch */,
+				292132B0155C49EB00AFF9E5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		292132C0155C4A0E00AFF9E5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				292132C1155C4A0E00AFF9E5 /* circle.png */,
+				292132C2155C4A0E00AFF9E5 /* rectangle.png */,
+				292132C3155C4A0E00AFF9E5 /* tspark.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2921329C155C49EB00AFF9E5 /* FancyProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292132BB155C49EB00AFF9E5 /* Build configuration list for PBXNativeTarget "FancyProgressBar" */;
+			buildPhases = (
+				29213299155C49EB00AFF9E5 /* Sources */,
+				2921329A155C49EB00AFF9E5 /* Frameworks */,
+				2921329B155C49EB00AFF9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyProgressBar;
+			productName = FancyProgressBar;
+			productReference = 2921329D155C49EB00AFF9E5 /* FancyProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29213294155C49EB00AFF9E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 29213297155C49EB00AFF9E5 /* Build configuration list for PBXProject "FancyProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29213292155C49EB00AFF9E5;
+			productRefGroup = 2921329E155C49EB00AFF9E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2921329C155C49EB00AFF9E5 /* FancyProgressBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2921329B155C49EB00AFF9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292132AC155C49EB00AFF9E5 /* InfoPlist.strings in Resources */,
+				292132B2155C49EB00AFF9E5 /* Credits.rtf in Resources */,
+				292132B8155C49EB00AFF9E5 /* MainMenu.xib in Resources */,
+				292132C5155C4A0E00AFF9E5 /* circle.png in Resources */,
+				292132C6155C4A0E00AFF9E5 /* rectangle.png in Resources */,
+				292132C7155C4A0E00AFF9E5 /* tspark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29213299155C49EB00AFF9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292132AE155C49EB00AFF9E5 /* main.m in Sources */,
+				292132B5155C49EB00AFF9E5 /* BBSAppDelegate.m in Sources */,
+				292132C4155C4A0E00AFF9E5 /* BBSProgressIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		292132AA155C49EB00AFF9E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292132AB155C49EB00AFF9E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		292132B0155C49EB00AFF9E5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292132B1155C49EB00AFF9E5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		292132B6155C49EB00AFF9E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292132B7155C49EB00AFF9E5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292132B9155C49EB00AFF9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		292132BA155C49EB00AFF9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		292132BC155C49EB00AFF9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyProgressBar/FancyProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "FancyProgressBar/FancyProgressBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		292132BD155C49EB00AFF9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyProgressBar/FancyProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "FancyProgressBar/FancyProgressBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29213297155C49EB00AFF9E5 /* Build configuration list for PBXProject "FancyProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292132B9155C49EB00AFF9E5 /* Debug */,
+				292132BA155C49EB00AFF9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292132BB155C49EB00AFF9E5 /* Build configuration list for PBXNativeTarget "FancyProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292132BC155C49EB00AFF9E5 /* Debug */,
+				292132BD155C49EB00AFF9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29213294155C49EB00AFF9E5 /* Project object */;
+}

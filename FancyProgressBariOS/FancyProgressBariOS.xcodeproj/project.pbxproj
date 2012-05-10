@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292132DA155C4C7200AFF9E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292132D9155C4C7200AFF9E5 /* UIKit.framework */; };
+		292132DC155C4C7200AFF9E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292132DB155C4C7200AFF9E5 /* Foundation.framework */; };
+		292132DE155C4C7200AFF9E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292132DD155C4C7200AFF9E5 /* CoreGraphics.framework */; };
+		292132E4155C4C7200AFF9E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 292132E2155C4C7200AFF9E5 /* InfoPlist.strings */; };
+		292132E6155C4C7200AFF9E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132E5155C4C7200AFF9E5 /* main.m */; };
+		292132EA155C4C7200AFF9E5 /* BBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132E9155C4C7200AFF9E5 /* BBSAppDelegate.m */; };
+		292132ED155C4C7200AFF9E5 /* BBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132EC155C4C7200AFF9E5 /* BBSViewController.m */; };
+		292132F0155C4C7200AFF9E5 /* BBSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292132EE155C4C7200AFF9E5 /* BBSViewController_iPhone.xib */; };
+		292132F3155C4C7200AFF9E5 /* BBSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292132F1155C4C7200AFF9E5 /* BBSViewController_iPad.xib */; };
+		292132FB155C4D0B00AFF9E5 /* BBSProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 292132FA155C4D0B00AFF9E5 /* BBSProgressView.m */; };
+		292132FD155C4D2800AFF9E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292132FC155C4D2800AFF9E5 /* QuartzCore.framework */; };
+		29213302155C53F400AFF9E5 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 292132FF155C53F400AFF9E5 /* circle.png */; };
+		29213303155C53F400AFF9E5 /* rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 29213300155C53F400AFF9E5 /* rectangle.png */; };
+		29213304155C53F400AFF9E5 /* tspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 29213301155C53F400AFF9E5 /* tspark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		292132D5155C4C7200AFF9E5 /* FancyProgressBariOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyProgressBariOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292132D9155C4C7200AFF9E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		292132DB155C4C7200AFF9E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		292132DD155C4C7200AFF9E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		292132E1155C4C7200AFF9E5 /* FancyProgressBariOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancyProgressBariOS-Info.plist"; sourceTree = "<group>"; };
+		292132E3155C4C7200AFF9E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		292132E5155C4C7200AFF9E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		292132E7155C4C7200AFF9E5 /* FancyProgressBariOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FancyProgressBariOS-Prefix.pch"; sourceTree = "<group>"; };
+		292132E8155C4C7200AFF9E5 /* BBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSAppDelegate.h; sourceTree = "<group>"; };
+		292132E9155C4C7200AFF9E5 /* BBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSAppDelegate.m; sourceTree = "<group>"; };
+		292132EB155C4C7200AFF9E5 /* BBSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSViewController.h; sourceTree = "<group>"; };
+		292132EC155C4C7200AFF9E5 /* BBSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSViewController.m; sourceTree = "<group>"; };
+		292132EF155C4C7200AFF9E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBSViewController_iPhone.xib; sourceTree = "<group>"; };
+		292132F2155C4C7200AFF9E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBSViewController_iPad.xib; sourceTree = "<group>"; };
+		292132F9155C4D0B00AFF9E5 /* BBSProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSProgressView.h; sourceTree = "<group>"; };
+		292132FA155C4D0B00AFF9E5 /* BBSProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSProgressView.m; sourceTree = "<group>"; };
+		292132FC155C4D2800AFF9E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		292132FF155C53F400AFF9E5 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		29213300155C53F400AFF9E5 /* rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangle.png; sourceTree = "<group>"; };
+		29213301155C53F400AFF9E5 /* tspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tspark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292132D2155C4C7200AFF9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292132DE155C4C7200AFF9E5 /* CoreGraphics.framework in Frameworks */,
+				292132FD155C4D2800AFF9E5 /* QuartzCore.framework in Frameworks */,
+				292132DA155C4C7200AFF9E5 /* UIKit.framework in Frameworks */,
+				292132DC155C4C7200AFF9E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292132CA155C4C7200AFF9E5 = {
+			isa = PBXGroup;
+			children = (
+				292132FC155C4D2800AFF9E5 /* QuartzCore.framework */,
+				292132DF155C4C7200AFF9E5 /* FancyProgressBariOS */,
+				292132D8155C4C7200AFF9E5 /* Frameworks */,
+				292132D6155C4C7200AFF9E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		292132D6155C4C7200AFF9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292132D5155C4C7200AFF9E5 /* FancyProgressBariOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292132D8155C4C7200AFF9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292132D9155C4C7200AFF9E5 /* UIKit.framework */,
+				292132DB155C4C7200AFF9E5 /* Foundation.framework */,
+				292132DD155C4C7200AFF9E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		292132DF155C4C7200AFF9E5 /* FancyProgressBariOS */ = {
+			isa = PBXGroup;
+			children = (
+				292132FE155C53F400AFF9E5 /* resources */,
+				292132E8155C4C7200AFF9E5 /* BBSAppDelegate.h */,
+				292132E9155C4C7200AFF9E5 /* BBSAppDelegate.m */,
+				292132EB155C4C7200AFF9E5 /* BBSViewController.h */,
+				292132EC155C4C7200AFF9E5 /* BBSViewController.m */,
+				292132EE155C4C7200AFF9E5 /* BBSViewController_iPhone.xib */,
+				292132F1155C4C7200AFF9E5 /* BBSViewController_iPad.xib */,
+				292132E0155C4C7200AFF9E5 /* Supporting Files */,
+				292132F9155C4D0B00AFF9E5 /* BBSProgressView.h */,
+				292132FA155C4D0B00AFF9E5 /* BBSProgressView.m */,
+			);
+			path = FancyProgressBariOS;
+			sourceTree = "<group>";
+		};
+		292132E0155C4C7200AFF9E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				292132E1155C4C7200AFF9E5 /* FancyProgressBariOS-Info.plist */,
+				292132E2155C4C7200AFF9E5 /* InfoPlist.strings */,
+				292132E5155C4C7200AFF9E5 /* main.m */,
+				292132E7155C4C7200AFF9E5 /* FancyProgressBariOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		292132FE155C53F400AFF9E5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				292132FF155C53F400AFF9E5 /* circle.png */,
+				29213300155C53F400AFF9E5 /* rectangle.png */,
+				29213301155C53F400AFF9E5 /* tspark.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292132D4155C4C7200AFF9E5 /* FancyProgressBariOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292132F6155C4C7200AFF9E5 /* Build configuration list for PBXNativeTarget "FancyProgressBariOS" */;
+			buildPhases = (
+				292132D1155C4C7200AFF9E5 /* Sources */,
+				292132D2155C4C7200AFF9E5 /* Frameworks */,
+				292132D3155C4C7200AFF9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyProgressBariOS;
+			productName = FancyProgressBariOS;
+			productReference = 292132D5155C4C7200AFF9E5 /* FancyProgressBariOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292132CC155C4C7200AFF9E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 292132CF155C4C7200AFF9E5 /* Build configuration list for PBXProject "FancyProgressBariOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 292132CA155C4C7200AFF9E5;
+			productRefGroup = 292132D6155C4C7200AFF9E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292132D4155C4C7200AFF9E5 /* FancyProgressBariOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292132D3155C4C7200AFF9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292132E4155C4C7200AFF9E5 /* InfoPlist.strings in Resources */,
+				292132F0155C4C7200AFF9E5 /* BBSViewController_iPhone.xib in Resources */,
+				292132F3155C4C7200AFF9E5 /* BBSViewController_iPad.xib in Resources */,
+				29213302155C53F400AFF9E5 /* circle.png in Resources */,
+				29213303155C53F400AFF9E5 /* rectangle.png in Resources */,
+				29213304155C53F400AFF9E5 /* tspark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292132D1155C4C7200AFF9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292132E6155C4C7200AFF9E5 /* main.m in Sources */,
+				292132EA155C4C7200AFF9E5 /* BBSAppDelegate.m in Sources */,
+				292132ED155C4C7200AFF9E5 /* BBSViewController.m in Sources */,
+				292132FB155C4D0B00AFF9E5 /* BBSProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		292132E2155C4C7200AFF9E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292132E3155C4C7200AFF9E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		292132EE155C4C7200AFF9E5 /* BBSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292132EF155C4C7200AFF9E5 /* en */,
+			);
+			name = BBSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		292132F1155C4C7200AFF9E5 /* BBSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292132F2155C4C7200AFF9E5 /* en */,
+			);
+			name = BBSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292132F4155C4C7200AFF9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		292132F5155C4C7200AFF9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292132F7155C4C7200AFF9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyProgressBariOS/FancyProgressBariOS-Prefix.pch";
+				INFOPLIST_FILE = "FancyProgressBariOS/FancyProgressBariOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		292132F8155C4C7200AFF9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyProgressBariOS/FancyProgressBariOS-Prefix.pch";
+				INFOPLIST_FILE = "FancyProgressBariOS/FancyProgressBariOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292132CF155C4C7200AFF9E5 /* Build configuration list for PBXProject "FancyProgressBariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292132F4155C4C7200AFF9E5 /* Debug */,
+				292132F5155C4C7200AFF9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292132F6155C4C7200AFF9E5 /* Build configuration list for PBXNativeTarget "FancyProgressBariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292132F7155C4C7200AFF9E5 /* Debug */,
+				292132F8155C4C7200AFF9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 292132CC155C4C7200AFF9E5 /* Project object */;
+}
